@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
   text-decoration: none;
 }
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #f43f5e;
   --dark-grey: #6b7280;
   --off-white: #f3f4f6;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0px;
 }
-.space {
+.gutter {
   margin-bottom: 150px;
 }
+
 .container-center {
   max-width: 600px;
   margin: auto;
@@ -32,6 +33,11 @@ body {
   padding-bottom: 10px;
   border-radius: 7px;
 }
+
+.primary-link:hover {
+  opacity: 0.8;
+}
+
 .link {
   text-decoration: none;
 }
@@ -108,5 +114,5 @@ body {
   color: white;
 }
 .footer ul {
-  padding-inline-start: 0pxS;
+  padding-inline-start: 0px;
 }
