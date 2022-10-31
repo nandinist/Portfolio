@@ -1,2 +1,2 @@
 # Personal Portfolio
-Portfolio made by HTML and CSS
+My Personal Portfolio made by HTML and CSS.
